@@ -1,0 +1,297 @@
+{
+    "quizzes": [{
+            "_id": "57b74572716d0a15004baaa7",
+            "name": "General Knowledge 1",
+            "identifier" : "general-knowledge-1",
+            "description": "This Quiz will test your skills in general knowledge",
+            "duration" : 600,
+            "created_at": 1471628658767,
+            "answers": {
+                "5d6c5c46-23c3-4a74-bbf6-677986b63774": "A",
+                "00c8081b-f66e-49ed-b853-8dc01015e68b": "B",
+                "cad2cd35-bb20-4352-9b13-f7bb0a4dd964": "B",
+                "2944f4de-4630-46a0-a953-ca410c47faac": "B",
+                "d51285c1-71b1-4cb4-b861-0546d012dfa5": "D",
+                "2be4ffcc-3909-4cdb-9759-ada6a37fdb28": "B",
+                "1c3cf59d-7caf-43e8-84db-bee561c69beb": "B",
+                "94ee1553-5025-489e-a5d4-0b337902601c": "A",
+                "49ab71f2-ee61-4343-bd6b-fd1643834921": "A",
+                "f9c2b149-2c52-4619-88e2-7aada2635bed": "A"
+
+            },
+            "questions": {
+                "5d6c5c46-23c3-4a74-bbf6-677986b63774": {
+                    "multichoice": false,
+                    "body": "Grand Central Terminal, Park Avenue, New York is the world's",
+                    "options": {
+                        "A": "largest railway station",
+                        "B": "highest railway station",
+                        "C": "longest railway station",
+                        "D": "None of the above"
+                    },
+                    "created_at": 1471630137015,
+                    "difficulty": 1,
+                    "id": "5d6c5c46-23c3-4a74-bbf6-677986b63774"
+                },
+                "00c8081b-f66e-49ed-b853-8dc01015e68b": {
+                    "body": "Entomology is the science that studies",
+                    "options": {
+                        "A": "Behavior of human beings",
+                        "B": "Insects",
+                        "C": "The origin and history of technical and scientific terms",
+                        "D": "The formation of rocks"
+                    },
+                    "multichoice": false,
+                    "created_at": 1471630403224,
+                    "difficulty": 1,
+                    "id": "00c8081b-f66e-49ed-b853-8dc01015e68b"
+                },
+                "cad2cd35-bb20-4352-9b13-f7bb0a4dd964": {
+                    "body": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of",
+                    "options": {
+                        "A": "Asia",
+                        "B": "Africa",
+                        "C": "Europe",
+                        "D": "Australia"
+                    },
+                    "created_at": 1471630575438,
+                    "difficulty": 1,
+                    "id": "cad2cd35-bb20-4352-9b13-f7bb0a4dd964"
+                },
+                "2944f4de-4630-46a0-a953-ca410c47faac": {
+                    "body": "Garampani sanctuary is located at",
+                    "options": {
+                        "A": "Junagarh, Gujarat",
+                        "B": "Diphu, Assam",
+                        "C": "Kohima, Nagaland",
+                        "D": "Gangtok, Sikkim"
+                    },
+                    "created_at": 1471630705523,
+                    "difficulty": 1,
+                    "id": "2944f4de-4630-46a0-a953-ca410c47faac"
+                },
+                "d51285c1-71b1-4cb4-b861-0546d012dfa5": {
+                    "body": "For which of the following disciplines is Nobel Prize awarded?",
+                    "options": {
+                        "A": "Physics and Chemistry",
+                        "B": "Physiology or Medicine",
+                        "C": "Education",
+                        "D": "Literature, Peace and Economics",
+                        "E": "All of the above"
+                    },
+                    "created_at": 1471630964142,
+                    "difficulty": 1,
+                    "id": "d51285c1-71b1-4cb4-b861-0546d012dfa5"
+                },
+                "2be4ffcc-3909-4cdb-9759-ada6a37fdb28": {
+                    "body": "Hitler party which came into power in 1933 is known as",
+                    "options": {
+                        "A": "Labour Party",
+                        "B": "Nazi Party",
+                        "C": "Ku-Klux-Klan",
+                        "D": "Democratic Party"
+                    },
+                    "created_at": 1471631180418,
+                    "difficulty": 1,
+                    "id": "2be4ffcc-3909-4cdb-9759-ada6a37fdb28"
+                },
+                "1c3cf59d-7caf-43e8-84db-bee561c69beb": {
+                    "body": "FFC stands for",
+                    "options": {
+                        "A": "Foreign Finance Corporation",
+                        "B": "Film Finance Corporation",
+                        "C": "Federation of Football Council",
+                        "D": "None of the above"
+                    },
+                    "created_at": 1471631665313,
+                    "difficulty": 1,
+                    "id": "1c3cf59d-7caf-43e8-84db-bee561c69beb"
+                },
+                "94ee1553-5025-489e-a5d4-0b337902601c": {
+                    "body": "Fastest shorthand writer was",
+                    "options": {
+                        "A": "Dr. G. D. Bist",
+                        "B": "J.R.D. Tata",
+                        "C": "J.M. Tagore",
+                        "D": "Khudada Khan"
+                    },
+                    "created_at": 1471632184234,
+                    "difficulty": 1,
+                    "id": "94ee1553-5025-489e-a5d4-0b337902601c"
+                },
+                "49ab71f2-ee61-4343-bd6b-fd1643834921": {
+                    "body": "Epsom (England) is the place associated with",
+                    "options": {
+                        "A": "Horse racing",
+                        "B": "Polo",
+                        "C": "Shooting",
+                        "D": "Snooker"
+                    },
+                    "created_at": 1471632184234,
+                    "difficulty": 1,
+                    "id": "49ab71f2-ee61-4343-bd6b-fd1643834921"
+                },
+                "f9c2b149-2c52-4619-88e2-7aada2635bed": {
+                    "body": "First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in",
+                    "options": {
+                        "A": "1967",
+                        "B": "1968",
+                        "C": "1958",
+                        "D": "1922"
+                    },
+                    "created_at": 1471632184234,
+                    "difficulty": 1,
+                    "id": "f9c2b149-2c52-4619-88e2-7aada2635bed"
+                }
+            },
+            "id": "57b74572716d0a15004baaa7",
+            "modified_at": 1471632513164
+        },
+
+        {
+            "_id": "57b7553eb569bf1400099d8c",
+            "name": "General Science 1",
+            "identifier": "general-science-1",
+            "description": "This Quiz will test your Skills in General Science",  
+            "duration" : 600,
+            "created_at": 1471632702923,
+            "answers": {
+                "1158d049-b6fa-499a-9366-8cbc78359e76": "B",
+                "87882ae2-8e23-42c0-82c2-f4e820e1d205": "B",
+                "b4c3532c-d203-44bf-881f-69d3f070bcc1": "B",
+                "f1a7c35f-0290-4c98-8e8f-c0207a126fbc": "A",
+                "3964f1e0-166b-4ac2-8f84-8e930f0b9f70": "B",
+                "ee43ea06-dbc2-4813-a442-5796afcec168": "A",
+                "165b4af2-9d30-4d74-8773-1e4c0b88f908": "A",
+                "0585b45a-7969-4f65-aa9d-266d39862a66": "A",
+                "d23def05-e0c7-4ae9-bf1d-adad17147b2e": "D",
+                "373ea2ca-e47f-456a-9cd7-258d20772be1": "B"
+            },
+            "questions": {
+                "1158d049-b6fa-499a-9366-8cbc78359e76": {
+                    "body": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+                    "options": {
+                        "A": "Oxygen",
+                        "B": "Hydrogen sulphide",
+                        "C": "Carbon dioxide",
+                        "D": "Nitrogen"
+                    },
+                    "created_at": 1471670469492,
+                    "difficulty": 1,
+                    "id": "1158d049-b6fa-499a-9366-8cbc78359e76",
+                    "multichoice": false
+                },
+                "87882ae2-8e23-42c0-82c2-f4e820e1d205": {
+                    "body": "Which of the following is a non metal that remains liquid at room temperature?",
+                    "options": {
+                        "A": "Phosphorous",
+                        "B": "Bromine",
+                        "C": "Chlorine",
+                        "D": "Helium"
+                    },
+                    "created_at": 1471670860225,
+                    "difficulty": 1,
+                    "id": "87882ae2-8e23-42c0-82c2-f4e820e1d205"
+                },
+                "b4c3532c-d203-44bf-881f-69d3f070bcc1": {
+                    "body": "Chlorophyll is a naturally occurring chelate compound in which central metal is",
+                    "options": {
+                        "A": "copper",
+                        "B": "magnesium",
+                        "C": "iron",
+                        "D": "Helium"
+                    },
+                    "created_at": 1471671010101,
+                    "difficulty": 1,
+                    "id": "b4c3532c-d203-44bf-881f-69d3f070bcc1"
+                },
+                "f1a7c35f-0290-4c98-8e8f-c0207a126fbc": {
+                    "body": "Which of the following is used in pencils?",
+                    "options": {
+                        "A": "Graphite",
+                        "B": "Silicon",
+                        "C": "Charcoal",
+                        "D": "Phosphorous"
+                    },
+                    "created_at": 1471671532628,
+                    "difficulty": 1,
+                    "id": "f1a7c35f-0290-4c98-8e8f-c0207a126fbc"
+                },
+                "3964f1e0-166b-4ac2-8f84-8e930f0b9f70": {
+                    "body": "Which of the following metals forms an amalgam with other metals?",
+                    "options": {
+                        "A": "Tin",
+                        "B": "Mercury",
+                        "C": "Lead",
+                        "D": "Zinc"
+                    },
+                    "created_at": 1471671648780,
+                    "difficulty": 1,
+                    "id": "3964f1e0-166b-4ac2-8f84-8e930f0b9f70"
+                },
+                "ee43ea06-dbc2-4813-a442-5796afcec168": {
+                    "body": "The gas usually filled in the electric bulb is",
+                    "options": {
+                        "A": "nitrogen",
+                        "B": "hydrogen",
+                        "C": "carbon dioxide",
+                        "D": "oxygen"
+                    },
+                    "created_at": 1471671731120,
+                    "difficulty": 1,
+                    "id": "ee43ea06-dbc2-4813-a442-5796afcec168"
+                },
+                "165b4af2-9d30-4d74-8773-1e4c0b88f908": {
+                    "body": "Washing soda is the common name for",
+                    "options": {
+                        "A": "Sodium carbonate",
+                        "B": "Calcium bicarbonate",
+                        "C": "Sodium bicarbonate",
+                        "D": "Calcium carbonate"
+                    },
+                    "created_at": 1471671888687,
+                    "difficulty": 1,
+                    "id": "165b4af2-9d30-4d74-8773-1e4c0b88f908"
+                },
+                "0585b45a-7969-4f65-aa9d-266d39862a66": {
+                    "body": "Quartz crystals normally used in quartz clocks etc. is chemically",
+                    "options": {
+                        "A": "silicon dioxide",
+                        "B": "germanium oxide",
+                        "C": "a mixture of germanium oxide and silicon dioxide",
+                        "D": "sodium silicate"
+                    },
+                    "created_at": 1471672052682,
+                    "difficulty": 1,
+                    "id": "0585b45a-7969-4f65-aa9d-266d39862a66"
+                },
+                "d23def05-e0c7-4ae9-bf1d-adad17147b2e": {
+                    "body": "Which of the gas is not known as green house gas?",
+                    "options": {
+                        "A": "Methane",
+                        "B": "Nitrous oxide",
+                        "C": "Carbon dioxide",
+                        "D": "Hydrogen"
+                    },
+                    "created_at": 1471672504594,
+                    "difficulty": 1,
+                    "id": "d23def05-e0c7-4ae9-bf1d-adad17147b2e"
+                },
+                "373ea2ca-e47f-456a-9cd7-258d20772be1": {
+                    "body": "Bromine is a",
+                    "options": {
+                        "A": "black solid",
+                        "B": "red liquid",
+                        "C": "colourless gas",
+                        "D": "highly inflammable gas"
+                    },
+                    "created_at": 1471672760226,
+                    "difficulty": 1,
+                    "id": "373ea2ca-e47f-456a-9cd7-258d20772be1"
+                }
+            },
+            "id": "57b7553eb569bf1400099d8c",
+            "modified_at": 1471673059758
+        }
+	]
+}

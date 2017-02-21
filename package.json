@@ -1,0 +1,30 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "A quiz application for Andela bootcamp week 2 project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuonifade/QuizApp.git"
+  },
+  "author": "Anuoluwapo Onifade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuonifade/QuizApp/issues"
+  },
+  "homepage": "https://github.com/anuonifade/QuizApp#readme",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "cli-progress": "^1.3.0",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "jsonfile": "^2.4.0",
+    "progress": "^1.1.8",
+    "readline": "^1.3.0",
+    "util": "^0.10.3",
+    "uuid": "^3.0.1"
+  }
+}

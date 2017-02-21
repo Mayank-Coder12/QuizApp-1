@@ -1,0 +1,40 @@
+{
+	"users" : {
+		"regular" :[
+			{
+				"_id" : "b0f1d650-f5df-11e6-a6d0-91f461d78294",
+				"identifier" : "user1",
+				"createdAt" : "",
+				"status" : 1,
+				"quizzes" : [
+					{
+						"_id" : "",
+						"score" : "",
+						"maxscore" : "",
+						"dateTaken" : ""
+					},
+					{
+						"_id" : "",
+						"score" : "",
+						"maxscore" : "",
+						"dateTaken" : ""
+					}
+				]
+			}, 
+			{
+				"_id" : "",
+				"identifier" : "user2",
+				"createdAt" : "",
+				"status" : 1
+			}
+		],
+		"admin" : [
+			{
+				"_id" : "c68fe510-f5df-11e6-a465-3914cc9c1969",
+				"identifier" : "adminuser",
+				"createdAt" : "",
+				"status" : 1
+			}
+		]
+	} 
+}

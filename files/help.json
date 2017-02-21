@@ -1,0 +1,37 @@
+{
+	"commands" : {
+		"help" : {
+			"decription" : "It is used to check the list of commands on QuizApp and their uses",
+			"content" : " \n Help \n =====\n command ? \t -- When ? is used in front of a command, it shows a documentation of the command\n help \t -- Will list the sets of commands available on QuizApp.\n listquizzes \t -- List all the available quizzes offline . \n importquiz \t -- Imports a new quiz from a file <path_to_quiz> is the quiz identifier. \n takequiz <quiz_name> \t -- Start taking a new quiz \n admin <adminusername> \t -- Change user from regular to Admin user.\n upload \t -- Can only be performed by the Admin. Publishes new quizzes on the local database to online database. \n download \t -- Is an administrator's task. Downloads new quizzes from online to offline database. \n exit \t -- Quits the QuizApp application. \n quit \t -- Quits the QuizApp application.\n\n" 
+		},
+		"listquizzes" : {
+			"description" : "Command to list all the available quizzes",
+			"content" : " \n Help \n =====\n listquizzes \t - List of all the available quizzes in your library.\n\n"
+		},
+		"importquiz" : {
+			"description" : "Command to import quiz to the library",
+			"content" : " \n Help \n =====\n importquiz <path_to_quiz> or <quiz_identifier> \t - Import a new quiz from a JSON file.\n\n"
+		},
+		"takequiz" :{
+			"description" : "Command to take quiz",
+			"content" : " \n Help \n =====\n takequiz <quiz_name> \t - Start taking a new quiz.\n\n"
+		}, 
+		"admin" : {
+			"description" : "Used to switch user to an admin",
+			"content" : " \n Help \n =====\n admin <admin_username> \t - switch to the admin if it exist and deny if not, it will request for a password to be able to switch successfully.\n admin <admin_username> <admin_password> - switch user to the admin with the username and password.\n\n"
+		},
+		"clear" : {
+			"description" : "Used to clear the screen.",
+			"content" : " \n Help \n =====\n clear \t - clears the screen and take you to the top of the console screen.\n\n"
+		},
+		"download" : {
+			"description" : "Used to update the local database",
+			"content" : " \n Help \n =====\n download \t - Can only be performed by an admin user. To see how to switch to an admin user, use command (admin ?) to see the help documentation on switching to admin. download command updates the local database with quizzes from the online database.\n\n"
+		},
+		"upload" : {
+			"description" : "Used to update the online database with quizzes from the local database",
+			"content" : " \n Help \n =====\n upload \t - Can only be performed by an admin user. To see how to switch to an admin user, use command (admin ?) to see the help documentation on switching to admin. upload command updates the online database with quizzes from the local database.\n\n"
+		}
+
+	}
+}

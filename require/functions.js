@@ -28,7 +28,7 @@ function processCommands(userCommand){
 	global.quizLocation = offline;
 
 	let multipleArgs = userCommand.split(" ");
-	if(multipleArgs[0].toLowerCase() == 'user'){
+	if(multipleArgs[0].toLowerCase() == 'user' && multipleArgs[1] !== '?'){
 		if(multipleArgs[1] === undefined || multipleArgs[1] === null || multipleArgs[1] === ''){
 			//Prompt for user name or nickname
 			//Pass the user response to user function to set the current user and role
@@ -37,16 +37,16 @@ function processCommands(userCommand){
 			return;
 		}
 	}
-	if(multipleArgs[0].toLowerCase() == 'q'){
+	if(multipleArgs[0].toLowerCase() == 'q' && multipleArgs[1] !== '?'){
 		global['question'](multipleArgs[1], multipleArgs[2]);
 		return;
 	}
-	if(multipleArgs[0].toLowerCase() == 'page'){
+	if(multipleArgs[0].toLowerCase() == 'page' && multipleArgs[1] != '?'){
 		global['page'](multipleArgs[1]);
 		return;
 	}
 
-	if(multipleArgs[0].toLowerCase() == 'upload' || multipleArgs[0].toLowerCase() == 'download'){
+	if((multipleArgs[0].toLowerCase() == 'upload' || multipleArgs[0].toLowerCase() == 'download') && multipleArgs[1] !== '?'){
 		if(multipleArgs[1] !== undefined){
 			var quizToUploadDownload = getQuiz(multipleArgs[1]);
 			global[multipleArgs[0]](quizToUploadDownload);
@@ -57,7 +57,7 @@ function processCommands(userCommand){
 		}
 	}
 
-	if(multipleArgs[0].toLowerCase() == 'admin'){
+	if(multipleArgs[0].toLowerCase() == 'admin' && multipleArgs[1] !== '?'){
 		global['admin'](multipleArgs[1], multipleArgs[2]);
 	}
 

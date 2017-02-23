@@ -33,7 +33,7 @@ global.processCommand = function(){
 		else{
 			var responseExit = '';
 			do{
-				var responseYesNo = inputRead.question("You have an ongoing Quiz. Do you still want to close QuizApp?(y | n)".green);
+				var responseYesNo = inputRead.question("You have an ongoing Quiz. Do you still want to close QuizApp?(y | n)");
 				responseExit = responseYesNo.toLowerCase() || 'y';	
 				if(responseExit == 'y'){
 					global.done();

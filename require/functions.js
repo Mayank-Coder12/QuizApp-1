@@ -109,7 +109,7 @@ global.online = function(){
 	global.quizLocation = 'online';
 }
 
-global.offline = funtion(){
+global.offline = function(){
 	global.quizLocation = 'offline';
 }
 

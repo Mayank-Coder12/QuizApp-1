@@ -1,6 +1,5 @@
 require('dotenv').config();
 var firebase = require('firebase');
-var config = require('./require/config');
 
 
 global.quizzes = {};

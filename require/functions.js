@@ -7,14 +7,10 @@ var command = require('../files/help.json');
 var quizzesdb = require('../files/quizzes.json');
 var readAnswers = require('readline-sync');
 var colors = require('colors');
-var firebase = require('firebase-admin');
-var serviceAccount = require("../files/quizapp-e874a-firebase-adminsdk-ljcrt-74ce7bf1b7.json");
+var firebase = require('firebase');
+var config = require("./config");
 
-firebase.initializeApp({
-	serviceAccount : firebase.credential.cert(serviceAccount),
-	databaseURL : "https://quizapp-e874a.firebaseio.com/"
-});
-
+firebase.initializeApp(config); //Initialize firebase
 var quizRef = firebase.database().ref('quizapp');
 
 
@@ -45,12 +41,11 @@ function processCommands(userCommand){
 		global.quizLocation = 'online';
 		console.log("QuizApp " + global.quizLocation + " acitvated");
 		console.log("Sample Data from online Repo");
-		quizRef.once("value", function(snapshot) {
+		quizRef.on("value", function(snapshot) {
 			  console.log(snapshot.val());
 			}, function (errorObject) {
 			  console.log("The read failed: " + errorObject.code);
 		});
-		return;
 	}
 
 	if(multipleArgs[0].toLowerCase() == 'upload' || multipleArgs[0].toLowerCase() == 'download'){
@@ -396,7 +391,7 @@ module.exports = {
 	listquizzes : listquizzes,
 	importquiz : importquiz,
 	takequiz : takequiz,
-	clear : clear
+	clear : clear,
 	done : done,
 	startTakingQuiz : startTakingQuiz,
 	admin : admin,

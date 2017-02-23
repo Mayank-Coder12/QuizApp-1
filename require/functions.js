@@ -7,19 +7,17 @@ var command = require('../files/help.json');
 var quizzesdb = require('../files/quizzes.json');
 var readAnswers = require('readline-sync');
 var colors = require('colors');
-var firebase = require('firebase');
-var config = require("./config");
-
-firebase.initializeApp(config); //Initialize firebase
-var quizRef = firebase.database().ref('quizapp');
+var onlineQuiz = require('./fetchonlinequiz');
 
 
 function processCommands(userCommand){
+
 	//Check if the current user is an admin or a regular user.
 	//If current user is admin, prompt to switch to a regular user before attempting quiz
 	//Display the command to switch to regular user
 	//return to original prompt
 	//If user is a regular user, proceed to the next stage
+	
 	if(global.currentUser == undefined){
 		global.currentUser = "Anonymous";	
 	}
@@ -36,16 +34,6 @@ function processCommands(userCommand){
 			var nickName = readAnswers.question("Enter preferred nickname: ");
 			global['user'](nickName);
 		}
-	}
-	if(multipleArgs[0].toLowerCase() == 'online'){
-		global.quizLocation = 'online';
-		console.log("QuizApp " + global.quizLocation + " acitvated");
-		console.log("Sample Data from online Repo");
-		quizRef.on("value", function(snapshot) {
-			  console.log(snapshot.val());
-			}, function (errorObject) {
-			  console.log("The read failed: " + errorObject.code);
-		});
 	}
 
 	if(multipleArgs[0].toLowerCase() == 'upload' || multipleArgs[0].toLowerCase() == 'download'){
@@ -94,7 +82,6 @@ function processCommands(userCommand){
 		}
 		else if(multipleArgs[0].toLowerCase() === "importquiz"){
 			global[multipleArgs[0]](multipleArgs[1]);
-
 		}
 		else{
 			console.log('Incorrect command. Enter help or ? to see the list of commands.\n\n');
@@ -108,6 +95,11 @@ function processCommands(userCommand){
 		console.log("Incorrect command. Enter help or ? to see the list of commands.\n\n");
 	}
 		
+}
+
+global.online = function(){
+	global.quizLocation = 'online';
+
 }
 
 var getQuiz = function(identifier){

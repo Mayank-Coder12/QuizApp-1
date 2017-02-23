@@ -1,3 +1,5 @@
+'use strict'
+
 var config = {
     apiKey: "AIzaSyDTAk1mxL6i--NeVzWgNkSm0pI627xJUfU",
     authDomain: "quizapp-e874a.firebaseapp.com",

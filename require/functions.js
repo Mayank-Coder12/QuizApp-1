@@ -7,7 +7,8 @@ var command = require('../files/help.json');
 var quizzesdb = require('../files/quizzes.json');
 var readAnswers = require('readline-sync');
 var colors = require('colors');
-var onlineQuiz = require('./files/onlinequiz.json');
+var onlineQuiz = require('./getonlinequiz');
+
 
 
 function processCommands(userCommand){
@@ -121,6 +122,8 @@ var getQuiz = function(identifier){
 		}
 	}
 	else if(global.quizLocation == 'online'){
+		onlineQuiz.getOnlineQuizzes();
+		quizzesdb = global.quizzes;
 		for(var i = 0; i < onlineQuiz.length; i++){
 			if(onlineQuiz[i].identifier == identifier){
 				return onlineQuiz[i];

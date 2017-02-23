@@ -383,6 +383,10 @@ global.nextPage = function (startNumber, lastNumber){
 			console.log( "\t(" + option + ") " + global.questionToNumber[i].options[option]);
 		}
 		console.log("\n");
+		console.log(colors.cyan('You can switch between pages or answer questions using the commands below'));
+		console.log("next => Next Page \t prev => Previous page \t page <page_number> => Switch to the page_number".bold.green);
+		console.log("q 1 A => Question 1 option A or you can write command in full, question 1 A => Question 1 option A".bold.green);
+		console.log("\n");
 	}
 }
 
